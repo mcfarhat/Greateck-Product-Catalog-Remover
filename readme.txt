@@ -102,10 +102,8 @@ Yes. Because deletion is done in SQL, the usual WordPress and WooCommerce delete
 
 == Screenshots ==
 
-1. The Woo Product Remover entry in the admin menu.
-2. The removal screen, with the optional extras and the confirmation checkbox.
-3. The progress bar while a large catalog is being cleared.
-4. The summary shown once removal has finished.
+1. The removal screen, with the optional extras and the confirmation checkbox.
+2. Progress while a catalog is cleared, and the summary of what was removed.
 
 == Changelog ==
 
