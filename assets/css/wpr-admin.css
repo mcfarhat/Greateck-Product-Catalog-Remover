@@ -1,0 +1,86 @@
+/**
+ * Admin screen styling.
+ *
+ * Deliberately light: it leans on core admin styles so the screen keeps
+ * matching WordPress as the admin design changes.
+ *
+ * @package WooProductRemover
+ */
+
+.wpr-wrap .wpr-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	margin-top: 16px;
+	max-width: 780px;
+	padding: 8px 20px 20px;
+}
+
+.wpr-wrap .wpr-warning {
+	max-width: 780px;
+}
+
+.wpr-wrap .wpr-count {
+	font-size: 14px;
+}
+
+.wpr-wrap fieldset p {
+	margin: 0 0 14px;
+}
+
+.wpr-wrap fieldset .description {
+	color: #646970;
+	display: block;
+	font-size: 12px;
+	margin: 2px 0 0 24px;
+}
+
+.wpr-wrap .wpr-confirm {
+	border-top: 1px solid #dcdcde;
+	margin-top: 20px;
+	padding-top: 16px;
+}
+
+.wpr-wrap .wpr-progress {
+	border-top: 1px solid #dcdcde;
+	margin-top: 8px;
+	padding-top: 16px;
+}
+
+.wpr-wrap .wpr-bar {
+	background: #f0f0f1;
+	border-radius: 3px;
+	height: 20px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.wpr-wrap .wpr-bar span {
+	background: #2271b1;
+	display: block;
+	height: 100%;
+	transition: width 0.2s ease;
+	width: 0;
+}
+
+.wpr-wrap .wpr-status {
+	font-weight: 600;
+	margin: 10px 0 0;
+}
+
+.wpr-wrap .wpr-status.wpr-error {
+	color: #d63638;
+}
+
+.wpr-wrap .wpr-results {
+	margin: 10px 0 0;
+}
+
+.wpr-wrap .wpr-results li {
+	margin: 0 0 4px;
+}
+
+.wpr-wrap .wpr-credit {
+	color: #646970;
+	margin-top: 20px;
+}
