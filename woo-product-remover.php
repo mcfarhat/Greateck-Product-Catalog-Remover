@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:          Greateck Product Catalog Remover for WooCommerce
- * Plugin URI:           https://github.com/mcfarhat/Woo-Product-Remover
+ * Plugin URI:           https://github.com/mcfarhat/Greateck-Product-Catalog-Remover
  * Description:          Remove all WooCommerce products, variations and their leftover data in one click. Runs in batches with a progress bar, so it will not time out on large catalogs.
  * Version:              2.0.1
  * Requires at least:    6.5
