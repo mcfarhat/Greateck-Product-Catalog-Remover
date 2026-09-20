@@ -1,4 +1,4 @@
-# Woo Product Remover
+# Greateck Catalog Wipe for WooCommerce
 
 A WordPress / WooCommerce plugin that removes every product from your store in one click. It clears products, variations, their metadata and term relationships, and then cleans up the lookup tables WooCommerce keeps alongside them.
 
@@ -64,7 +64,7 @@ add_action( 'wpr_after_delete_batch', function ( $ids ) {
 
 Install from the [WordPress plugin directory](https://wordpress.org/plugins/woo-product-remover/), or drop this repository into `wp-content/plugins/woo-product-remover` and activate it.
 
-Then go to **Woo Product Remover** in the admin menu.
+Then go to **Catalog Wipe** in the admin menu.
 
 ## Warning
 

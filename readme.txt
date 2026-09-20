@@ -1,10 +1,10 @@
-=== Woo Product Remover ===
+=== Greateck Catalog Wipe for WooCommerce ===
 Contributors: mcfarhat
 Tags: woocommerce, delete products, bulk delete, remove products, reset store
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,11 +12,13 @@ Delete every WooCommerce product in one click. Batched so it never times out, an
 
 == Description ==
 
-Woo Product Remover clears out your entire WooCommerce catalog in one click. It removes products, variations, their metadata and their term relationships, and then cleans up the lookup tables WooCommerce keeps alongside them.
+Greateck Catalog Wipe for WooCommerce clears out your entire WooCommerce catalog in one click. It removes products, variations, their metadata and their term relationships, and then cleans up the lookup tables WooCommerce keeps alongside them.
 
 It handles every standard WooCommerce product type, including simple, grouped, external and variable products, plus all of their variations.
 
 **Your orders and customers are never touched.** Only product data is removed.
+
+This plugin is developed by Greateck and is not affiliated with, endorsed by, or sponsored by WooCommerce or Automattic. "WooCommerce" is a trademark of Automattic Inc., used here only to describe compatibility.
 
 = Batched, so large catalogs work =
 
@@ -53,7 +55,7 @@ If you would like some custom work done, or have an idea for a plugin you're rea
 
 1. Upload the plugin files to the `/wp-content/plugins/woo-product-remover` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. Go to **Woo Product Remover** in the admin menu.
+3. Go to **Catalog Wipe** in the admin menu.
 4. Choose any optional extras, tick the confirmation box, and click **Delete all products**.
 5. Watch the progress bar. When it finishes you get a summary of everything that was removed.
 
@@ -107,6 +109,11 @@ Yes. Because deletion is done in SQL, the usual WordPress and WooCommerce delete
 
 == Changelog ==
 
+= 2.0.1 =
+* Renamed to "Greateck Catalog Wipe for WooCommerce" to comply with the WordPress.org plugin directory naming and trademark guidelines. Functionality is unchanged.
+* Added the "Requires Plugins: woocommerce" header so WordPress can check the dependency before activation.
+* Added an explicit statement of non-affiliation with WooCommerce and Automattic.
+
 = 2.0.0 =
 * Updated for WordPress 7.1 and WooCommerce 11.
 * Removal now runs in batches with a progress bar, so large catalogs no longer time out.
@@ -127,6 +134,9 @@ Adding support to keep categories, tags and taxonomies related to the removed pr
 * Initial Version *
 
 == Upgrade Notice ==
+
+= 2.0.1 =
+Name change only — the plugin is now "Greateck Catalog Wipe for WooCommerce", to meet the WordPress.org naming guidelines. Nothing about how it works has changed, and no action is needed.
 
 = 2.0.0 =
 Compatibility update for WordPress 7.1 and WooCommerce 11. Fixes a bug where removing categories could delete WooCommerce's own product type and visibility terms, and cleans up the lookup tables that were leaving deleted products visible in search and reports. Removal now runs in batches so large catalogs no longer time out.

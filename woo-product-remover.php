@@ -1,11 +1,12 @@
 <?php
 /**
- * Plugin Name:          Woo Product Remover
+ * Plugin Name:          Greateck Catalog Wipe for WooCommerce
  * Plugin URI:           https://github.com/mcfarhat/Woo-Product-Remover
  * Description:          Remove all WooCommerce products, variations and their leftover data in one click. Runs in batches with a progress bar, so it will not time out on large catalogs.
- * Version:              2.0.0
+ * Version:              2.0.1
  * Requires at least:    6.5
  * Requires PHP:         7.4
+ * Requires Plugins:     woocommerce
  * Author:               Mohammad Farhat
  * Author URI:           https://www.greateck.com
  * License:              GPLv2 or later
@@ -20,7 +21,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'WPR_VERSION', '2.0.0' );
+define( 'WPR_VERSION', '2.0.1' );
 define( 'WPR_FILE', __FILE__ );
 define( 'WPR_PATH', plugin_dir_path( __FILE__ ) );
 define( 'WPR_URL', plugin_dir_url( __FILE__ ) );

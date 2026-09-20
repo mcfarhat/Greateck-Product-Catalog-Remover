@@ -80,8 +80,8 @@ class WPR_Admin {
 	 */
 	public function register_menu() {
 		add_menu_page(
-			__( 'Woo Product Remover', 'woo-product-remover' ),
-			__( 'Woo Product Remover', 'woo-product-remover' ),
+			__( 'Greateck Catalog Wipe for WooCommerce', 'woo-product-remover' ),
+			__( 'Catalog Wipe', 'woo-product-remover' ),
 			self::CAPABILITY,
 			self::SLUG,
 			array( $this, 'render_page' ),
@@ -232,7 +232,7 @@ class WPR_Admin {
 
 		?>
 		<div class="wrap wpr-wrap">
-			<h1><?php esc_html_e( 'Woo Product Remover', 'woo-product-remover' ); ?></h1>
+			<h1><?php esc_html_e( 'Greateck Catalog Wipe for WooCommerce', 'woo-product-remover' ); ?></h1>
 
 			<?php if ( ! $woocommerce_ready ) : ?>
 				<div class="notice notice-warning">
@@ -327,7 +327,7 @@ class WPR_Admin {
 				<?php
 				printf(
 					/* translators: %s: link to the author's site. */
-					esc_html__( 'Thank you for using Woo Product Remover by %s', 'woo-product-remover' ),
+					esc_html__( 'Thank you for using Greateck Catalog Wipe by %s', 'woo-product-remover' ),
 					'<a href="https://www.greateck.com" target="_blank" rel="noopener noreferrer">Greateck</a>'
 				);
 				?>
